@@ -11,7 +11,7 @@ module.exports = {
         contentPath: "notes",
         basePath: "/",
         gitRepoContentPath:
-          "https://github.com/kelvin8773/code-notes/tree/master/notes",
+          "https://github.com/kelvin8773/code-notes/tree/master/notes/",
         showThemeInfo: false,
         showDescriptionInSidebar: true,
         logo: "",
