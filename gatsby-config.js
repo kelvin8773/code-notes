@@ -1,18 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-code-notes',
-    description: `A starter for gatsby-theme-code-notes`,
-    author: 'Zander',
+    title: "Kelvin-FrontEnd-Notes",
+    description: `Notes & Code Snippets`,
+    author: "Kelvin Liang",
   },
   plugins: [
     {
-      resolve: 'gatsby-theme-code-notes',
+      resolve: "gatsby-theme-code-notes",
       options: {
-        contentPath: 'notes',
-        basePath: '/',
-        showThemeInfo: true,
+        contentPath: "notes",
+        basePath: "/",
+        showThemeInfo: false,
         showDescriptionInSidebar: true,
+        logo: "./assets/images/logo-simple-s.png",
       },
     },
   ],
-}
+};

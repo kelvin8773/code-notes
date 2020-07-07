@@ -1,3 +1,7 @@
 .cache
-public
+.github
+# public
+public/static
+public/page-data
+public/index.html
 node_modules
