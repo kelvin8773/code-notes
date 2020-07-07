@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Kelvin-FrontEnd-Notes",
-    description: `Notes & Code Snippets`,
+    description: `Kelvin's Tech Notes`,
     author: "Kelvin Liang",
   },
   plugins: [
@@ -10,9 +10,11 @@ module.exports = {
       options: {
         contentPath: "notes",
         basePath: "/",
+        gitRepoContentPath:
+          "https://github.com/kelvin8773/code-notes/tree/master/notes",
         showThemeInfo: false,
         showDescriptionInSidebar: true,
-        logo: "./assets/images/logo-simple-s.png",
+        logo: "",
       },
     },
   ],
