@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Kelvin-FrontEnd-Notes",
+    title: "Kelvin-Notes",
     description: `Kelvin's Tech Notes`,
     author: "Kelvin Liang",
   },
@@ -15,6 +15,20 @@ module.exports = {
         showThemeInfo: false,
         showDescriptionInSidebar: true,
         logo: "",
+        openSearch: {
+          siteShortName: `Kelvin Code Notes`,
+          siteUrl: "https://notes.kelvinliang.cn/",
+          siteTags: "front-end",
+          siteContact: "https://twitter.com/kelvin9877",
+          siteDescription:
+            "Collection of Codes. My Tech Memory. By Kelvin Liang.",
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/*`, `/tag/*`],
       },
     },
   ],
