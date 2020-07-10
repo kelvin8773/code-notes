@@ -22,7 +22,7 @@ link: ""
 
 <details>
   <summary>More...</summary>
-<a href="https://emojipedia.org/">Emojipedia.Org</a>
+  <a href="https://emojipedia.org/">Emojipedia.Org</a>
 </details>
 
 # [More Markdown Feature](https://code-notes-example.netlify.app/markdown-features/)
@@ -49,10 +49,10 @@ Ensure that these comments are not indented.
 
 ```css
 .grid {
-  // highlight-start
+// highlight-start
   display: grid;
   grid-gap: 30px;
-  // highlight-end
+// highlight-end
   grid-template-columns: repeat(auto-fill, 112px);
   /* or this */
   grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
