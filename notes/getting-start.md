@@ -74,3 +74,5 @@ Tables are responsive by default. If you need to limit line length for a cell, a
 | This is a row       | with some    | content                                                   |
 | This is another row | with another | Velit ut mauris penatibus <br/>turpis commodo consectetur |
 ```
+
+More on https://notes.zander.wtf/
